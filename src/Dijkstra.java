@@ -1,5 +1,3 @@
-package project6;
-
 public class Dijkstra {
     public static void main(String[] args) {
         int graphs[][]
@@ -13,9 +11,8 @@ public class Dijkstra {
                 { 8, 11, 0, 0, 0, 0, 1, 0, 7 },
                 { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
 
-        g
-
-        minimum.dijkstra(graoh, start 0);
-        minimun.print();
+        algs dijs = new algs();
+        dijs.name(graphs, 0);
+        dijs.print();
     }
 }
